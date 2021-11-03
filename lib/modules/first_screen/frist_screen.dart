@@ -34,7 +34,7 @@ class FirstScreen extends StatelessWidget {
                   Card(
                     child: ListTile(
                       title: const Text('Average Price'),
-                      subtitle: Text(state.average.toString()),
+                      subtitle: Text(state.average.toStringAsFixed(3)),
                     ),
                   ),
                   Card(
